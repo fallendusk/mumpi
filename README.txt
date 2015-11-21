@@ -1,3 +1,9 @@
+Requires ice enabled mumble-server (see fallendusk/mumble)
+To run
+
+docker run -p 80:80 --link mumble:mumble -v /mumpi-data:/app/data fallendusk/mumpi
+
+From MumPI project:
 
 MumPI is your Webinterface written in PHP for your Mumble Server ("Murmur") using the Ice-Middleware.
 
